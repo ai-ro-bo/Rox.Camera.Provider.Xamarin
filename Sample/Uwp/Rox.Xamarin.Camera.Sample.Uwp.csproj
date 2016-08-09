@@ -94,6 +94,12 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\Shared\AssemblySolution.cs">
+      <Link>Properties\AssemblySolution.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\AssemblyVersion.cs">
+      <Link>Properties\AssemblyVersion.cs</Link>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
