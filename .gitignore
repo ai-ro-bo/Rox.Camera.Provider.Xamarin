@@ -1,0 +1,49 @@
+# VS
+.vs/
+DTAR_*/
+*.suo
+*.user
+[Bb]in/
+[Oo]bj/
+
+# Asp.Net Core
+*.lock.json
+*.nuget.props
+*.nuget.targets
+artifacts/
+node_modules/
+
+# Asp.Net
+ClientBin/
+Generated_Code/
+
+# Test project
+TestResults/
+
+# Database project
+*.dbmdl
+Import Schema Logs/
+
+# Nuget
+packages/
+# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
+# !packages/*/build/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Old VS Installer
+# [Dd]ebug/
+# [Rr]elease/
+
+# TFS
+*.vspscc
+*.vssscc
+*.scc
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
