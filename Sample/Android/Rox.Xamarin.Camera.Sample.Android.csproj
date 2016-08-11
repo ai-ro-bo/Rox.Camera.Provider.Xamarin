@@ -55,11 +55,11 @@
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
     <Reference Include="Rox.Xamarin.Camera.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Rox.Xamarin.Camera.1.0.0-pre2\lib\MonoAndroid10\Rox.Xamarin.Camera.Android.dll</HintPath>
+      <HintPath>..\..\packages\Rox.Xamarin.Camera.1.0.0\lib\MonoAndroid10\Rox.Xamarin.Camera.Android.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Rox.Xamarin.Camera.Portable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Rox.Xamarin.Camera.1.0.0-pre2\lib\MonoAndroid10\Rox.Xamarin.Camera.Portable.dll</HintPath>
+      <HintPath>..\..\packages\Rox.Xamarin.Camera.1.0.0\lib\MonoAndroid10\Rox.Xamarin.Camera.Portable.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

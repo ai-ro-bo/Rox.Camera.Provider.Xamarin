@@ -123,11 +123,11 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Rox.Xamarin.Camera.Ios, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Rox.Xamarin.Camera.1.0.0-pre2\lib\Xamarin.iOS10\Rox.Xamarin.Camera.Ios.dll</HintPath>
+      <HintPath>..\..\packages\Rox.Xamarin.Camera.1.0.0\lib\Xamarin.iOS10\Rox.Xamarin.Camera.Ios.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Rox.Xamarin.Camera.Portable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Rox.Xamarin.Camera.1.0.0-pre2\lib\Xamarin.iOS10\Rox.Xamarin.Camera.Portable.dll</HintPath>
+      <HintPath>..\..\packages\Rox.Xamarin.Camera.1.0.0\lib\Xamarin.iOS10\Rox.Xamarin.Camera.Portable.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
