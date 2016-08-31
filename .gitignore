@@ -8,6 +8,13 @@ DTAR_*/
 
 # Backup
 *.bak
+*.trn
+
+# Zip
+*.zip
+*.rar
+*.7z
+*.iso
 
 # Asp.Net Core
 *.lock.json
@@ -27,7 +34,7 @@ TestResults/
 *.dbmdl
 Import Schema Logs/
 
-# Database project
+# Database
 *.dsn
 *.accdb
 
