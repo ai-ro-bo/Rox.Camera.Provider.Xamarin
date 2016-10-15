@@ -8,7 +8,7 @@ using Android.OS;
 using Rox;
 using System;
 
-namespace RoxSample
+namespace Rox
 {
     [Activity(Label = "Rox Camera", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity

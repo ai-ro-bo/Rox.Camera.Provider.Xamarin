@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{03247097-1847-49A5-AFBB-F173D6B17BD7}</ProjectGuid>
+    <ProjectGuid>{B0E3FD82-79CF-49DF-A265-E046CCFCE3BF}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RoxSample</RootNamespace>
+    <RootNamespace>Rox</RootNamespace>
     <AssemblyName>Rox.Xamarin.Camera.Sample.Uwp</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
