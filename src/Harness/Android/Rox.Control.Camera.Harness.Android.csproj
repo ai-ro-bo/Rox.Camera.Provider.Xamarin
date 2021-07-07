@@ -61,6 +61,12 @@
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\Shared\AssemblySolution.cs">
+      <Link>Properties\AssemblySolution.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\AssemblyVersion.cs">
+      <Link>Properties\AssemblyVersion.cs</Link>
+    </Compile>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyProject.cs" />
