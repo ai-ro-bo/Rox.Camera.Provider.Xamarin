@@ -1,0 +1,8 @@
+﻿[assembly: System.Reflection.AssemblyDescription("Rox Camera Control Harness")]
+[assembly: System.Reflection.AssemblyProduct("Rox Camera Control")]
+[assembly: System.Reflection.AssemblyCompany("AiRoBo")]
+[assembly: System.Reflection.AssemblyCopyright("©2021 AiRoBo")]
+[assembly: System.Reflection.AssemblyConfiguration("")]
+[assembly: System.Reflection.AssemblyTrademark("")]
+[assembly: System.Reflection.AssemblyCulture("")]
+[assembly: System.Runtime.InteropServices.ComVisible(false)]
