@@ -96,9 +96,17 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Control\Android\Rox.Control.Camera.Android.csproj">
+      <Project>{12c4b178-e497-446f-9eca-97acfacdf3ce}</Project>
+      <Name>Rox.Control.Camera.Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Control\Core\Rox.Control.Camera.csproj">
+      <Project>{0d73966c-446b-45c9-bfe0-86c61766d590}</Project>
+      <Name>Rox.Control.Camera</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Core\Rox.Control.Camera.Harness.csproj">
       <Project>{FA7553AC-83B3-4229-8D3D-5AD72E1591E4}</Project>
-      <Name>Rox.Sample.Control.Camera</Name>
+      <Name>Rox.Control.Camera.Harness</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

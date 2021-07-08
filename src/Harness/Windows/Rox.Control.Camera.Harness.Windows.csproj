@@ -156,9 +156,17 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.12" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Control\Windows\Rox.Control.Camera.Windows.csproj">
+      <Project>{4416852d-2320-4c97-b8f9-6bc9cd7871e0}</Project>
+      <Name>Rox.Control.Camera.Windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Control\Core\Rox.Control.Camera.csproj">
+      <Project>{0d73966c-446b-45c9-bfe0-86c61766d590}</Project>
+      <Name>Rox.Control.Camera</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Core\Rox.Control.Camera.Harness.csproj">
       <Project>{FA7553AC-83B3-4229-8D3D-5AD72E1591E4}</Project>
-      <Name>Rox.Sample.Control.Camera</Name>
+      <Name>Rox.Control.Camera.Harness</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
