@@ -9,7 +9,7 @@ namespace Rox
     {
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            Rox.CameraIos.Init();
+            global::Rox.CameraIos.Init();
 
             global::Xamarin.Forms.Forms.Init();
 

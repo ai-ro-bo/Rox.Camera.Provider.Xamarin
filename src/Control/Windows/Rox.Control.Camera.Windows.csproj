@@ -126,7 +126,7 @@
     <Compile Include="..\..\Shared\AssemblyVersion.cs">
       <Link>Properties\AssemblyVersion.cs</Link>
     </Compile>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CameraProvider.cs" />
     <Compile Include="Properties\AssemblyProject.cs" />
     <EmbeddedResource Include="Properties\Rox.Control.Camera.Windows.rd.xml" />
   </ItemGroup>

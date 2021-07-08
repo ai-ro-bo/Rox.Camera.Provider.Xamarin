@@ -1,28 +1,20 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace Rox
 {
-    public partial class HarnessApplication : Application
+    public partial class HarnessApplication
+        : Application
     {
         public HarnessApplication()
         {
             InitializeComponent();
 
-            MainPage = new MainView();
-        }
+            MainView mainView = new MainView();
+            MainViewModel mainViewModel = new MainViewModel();
+            mainView.BindingContext = mainViewModel;
+            NavigationPage navigationPage = new NavigationPage(mainView);
 
-        protected override void OnStart()
-        {
-        }
-
-        protected override void OnSleep()
-        {
-        }
-
-        protected override void OnResume()
-        {
+            MainPage = navigationPage;
         }
     }
 }
