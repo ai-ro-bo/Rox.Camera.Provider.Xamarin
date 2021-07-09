@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Control\Core\Rox.Control.Camera.csproj" />
+      <ProjectReference Include="..\..\Control\Core\Rox.Control.Camera.Xamarin.Core.csproj" />
     </ItemGroup>
 
 </Project>
