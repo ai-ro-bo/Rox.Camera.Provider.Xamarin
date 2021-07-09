@@ -11,7 +11,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Rox</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>Rox.Control.Camera.Apple</AssemblyName>
+    <AssemblyName>Rox.Control.Camera.Xamarin.Apple</AssemblyName>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -52,9 +52,9 @@
     <Compile Include="Properties\AssemblyProject.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Core\Rox.Control.Camera.csproj">
+    <ProjectReference Include="..\Core\Rox.Control.Camera.Xamarin.Core.csproj">
       <Project>{0d73966c-446b-45c9-bfe0-86c61766d590}</Project>
-      <Name>Rox.Control.Camera</Name>
+      <Name>Rox.Control.Camera.Xamarin.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

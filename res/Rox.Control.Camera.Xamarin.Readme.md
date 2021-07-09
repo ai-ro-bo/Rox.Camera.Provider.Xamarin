@@ -8,20 +8,20 @@ The CameraProvider component uses native platform components.
 
 ---
 
-In your Android project "MainActivity" code file, you must call "RoxCameraControl.Initialise(Activity)" before "Xamarin.Forms.Forms.Init()". It should look something like:
+In your Android project "MainActivity" code file, you must call "CameraControlAndroid.Initialise(Activity)" before "Xamarin.Forms.Forms.Init()". It should look something like:
 
 ```csharp
-    RoxCameraControl.Initialise(this);
+    CameraControlAndroid.Initialise(this);
 
     global::Xamarin.Forms.Forms.Init();
 
     LoadApplication(new MyCameraApplication());
 ```
 
-In your iOS project "AppDelegate" code file, you must call "RoxCameraControl.Initialise()" before "Xamarin.Forms.Forms.Init()". It should look something like:
+In your iOS project "AppDelegate" code file, you must call "CameraControlApple.Initialise()" before "Xamarin.Forms.Forms.Init()". It should look something like:
 
 ```csharp
-    RoxCameraControl.Initialise();
+    CameraControlApple.Initialise();
 
     global::Xamarin.Forms.Forms.Init();
 

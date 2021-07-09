@@ -23,16 +23,16 @@
 		<copyright>©2021 AiRoBo</copyright>
 		<tags>xamarin forms xamarinforms xamarin.forms plugin media camera picture image uap uwp android ios</tags>
 		<dependencies>
-			<group targetFramework=".NETStandard2.0">
+			<group targetFramework="netstandard2.0">
 				<dependency id="Xamarin.Forms" version="1.0.0.0" />
 			</group>
 			<group targetFramework="MonoAndroid10.0">
 				<dependency id="Xamarin.Forms" version="1.0.0.0" />
 			</group>
-			<group targetFramework="Xamarin.iOS1.0">
+			<group targetFramework="Xamarin.iOS10">
 				<dependency id="Xamarin.Forms" version="1.0.0.0" />
 			</group>
-			<group targetFramework="UAP10.0.16299">
+			<group targetFramework="uap10.0.16299">
 				<dependency id="Xamarin.Forms" version="1.0.0.0" />
 			</group>
 		</dependencies>

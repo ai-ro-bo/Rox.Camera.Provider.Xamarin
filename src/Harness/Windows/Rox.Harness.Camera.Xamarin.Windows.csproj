@@ -8,7 +8,7 @@
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Rox</RootNamespace>
-    <AssemblyName>Rox.Control.Camera.Harness.Windows</AssemblyName>
+    <AssemblyName>Rox.Harness.Camera.Xamarin.Windows</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
@@ -156,17 +156,17 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.12" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Control\Windows\Rox.Control.Camera.Windows.csproj">
+    <ProjectReference Include="..\..\Control\Windows\Rox.Control.Camera.Xamarin.Windows.csproj">
       <Project>{4416852d-2320-4c97-b8f9-6bc9cd7871e0}</Project>
-      <Name>Rox.Control.Camera.Windows</Name>
+      <Name>Rox.Control.Camera.Xamarin.Windows</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Control\Core\Rox.Control.Camera.csproj">
+    <ProjectReference Include="..\..\Control\Core\Rox.Control.Camera.Xamarin.Core.csproj">
       <Project>{0d73966c-446b-45c9-bfe0-86c61766d590}</Project>
-      <Name>Rox.Control.Camera</Name>
+      <Name>Rox.Control.Camera.Xamarin.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Core\Rox.Control.Camera.Harness.csproj">
+    <ProjectReference Include="..\Core\Rox.Harness.Camera.Xamarin.Core.csproj">
       <Project>{FA7553AC-83B3-4229-8D3D-5AD72E1591E4}</Project>
-      <Name>Rox.Control.Camera.Harness</Name>
+      <Name>Rox.Harness.Camera.Xamarin.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
