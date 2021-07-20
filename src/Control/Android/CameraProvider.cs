@@ -24,6 +24,8 @@ namespace Rox
                 Activity activity = CameraControlAndroid.GetActivity();
                 Intent intent = new Intent(MediaStore.ActionImageCapture);
 
+                intent.AddFlags(ActivityFlags.GrantWriteUriPermission | ActivityFlags.GrantReadUriPermission);
+
                 File parentFile;
                 File[] mediaDirs = activity.GetExternalMediaDirs();
                 if (mediaDirs.Length > 0)
