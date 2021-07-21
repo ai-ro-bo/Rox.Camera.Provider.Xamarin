@@ -18,6 +18,7 @@ namespace Rox
             {
                 CameraCaptureUI cameraCaptureUI = new CameraCaptureUI();
                 cameraCaptureUI.PhotoSettings.Format = CameraCaptureUIPhotoFormat.Png;
+                cameraCaptureUI.PhotoSettings.AllowCropping = false;
                 //cameraCaptureUI.VideoSettings.Format = CameraCaptureUIVideoFormat.Mp4;
 
                 StorageFile captureFile = await cameraCaptureUI.CaptureFileAsync(CameraCaptureUIMode.Photo);

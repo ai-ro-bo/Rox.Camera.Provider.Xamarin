@@ -53,19 +53,14 @@
     <Compile Include="..\..\Shared\AssemblyVersion.cs">
       <Link>Properties\AssemblyVersion.cs</Link>
     </Compile>
-    <Compile Include="CameraControlAndroid.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="FileProvider.cs" />
     <Compile Include="CameraProvider.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyProject.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AboutResources.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.3.0" />
-    <PackageReference Include="Xamarin.Forms">
-      <Version>5.0.0.2012</Version>
-    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2083" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\strings.xml" />
@@ -78,6 +73,9 @@
       <Project>{0d73966c-446b-45c9-bfe0-86c61766d590}</Project>
       <Name>Rox.Control.Camera.Xamarin.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\rox_fileprovider_file_paths.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

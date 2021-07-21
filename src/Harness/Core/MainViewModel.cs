@@ -7,7 +7,7 @@ namespace Rox
     public class MainViewModel
         : INotifyPropertyChanged
     {
-        public string ViewTitle => "Rox Camera Control Harness";
+        public string ViewTitle => "Rox Camera Harness";
 
         private ImageSource _PictureImage = null;
         public ImageSource PictureImage => _PictureImage;
