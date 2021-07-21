@@ -44,6 +44,7 @@ namespace Rox
                 }
 
                 CameraPhotoFile = new File(pictureDirectory, $"{Guid.NewGuid()}.jpg");
+
                 _ = intent.PutExtra(MediaStore.ExtraOutput, Uri.FromFile(CameraPhotoFile));
 
                 CameraTaskCompletionSource = new TaskCompletionSource<ImageSource>();
