@@ -1,1 +1,1 @@
-﻿[assembly: System.Reflection.AssemblyTitle("Rox Camera Control Harness for Apple")]
+﻿[assembly: System.Reflection.AssemblyTitle("Rox Camera Harness for Apple")]

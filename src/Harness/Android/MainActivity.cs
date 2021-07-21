@@ -5,7 +5,7 @@ using Android.Content;
 
 namespace Rox
 {
-    [Activity(Label = "Rox Camera Control Harness", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
+    [Activity(Label = "Rox Camera Harness", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
     public class MainActivity
         : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
@@ -13,8 +13,7 @@ namespace Rox
         {
             base.OnCreate(savedInstanceState);
 
-            global::Rox.CameraControlAndroid.Initialise(this);
-
+            global::Rox.Camera.Init(this);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
             LoadApplication(new HarnessApplication());

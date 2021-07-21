@@ -21,28 +21,34 @@ namespace Rox
             ImageSource imageSource = null;
             try
             {
-                Activity activity = CameraControlAndroid.GetActivity();
-                Intent intent = new Intent(MediaStore.ActionImageCapture);
+                Activity activity = Camera.GetActivity();
 
-                File parentFile;
-                File[] mediaDirs = activity.GetExternalMediaDirs();
-                if (mediaDirs.Length > 0)
-                {
-                    parentFile = mediaDirs[0];
-                }
-                else
-                {
-                    parentFile = activity.GetExternalFilesDir(null);
-                }
+                File parentFile = activity.CacheDir;
+                //File[] mediaDirs = activity.GetExternalMediaDirs();
+                //if (mediaDirs.Length > 0)
+                //{
+                //    parentFile = mediaDirs[0];
+                //}
+                //else
+                //{
+                //    parentFile = activity.GetExternalFilesDir(null);
+                //}
 
-                File pictureDirectory = new File(parentFile, "RoxTemp");
+                File pictureDirectory = new File(parentFile, "Rox");
                 if (!pictureDirectory.Exists())
                 {
                     _ = pictureDirectory.Mkdirs();
                 }
 
                 CameraPhotoFile = new File(pictureDirectory, $"{Guid.NewGuid()}.jpg");
-                _ = intent.PutExtra(MediaStore.ExtraOutput, Uri.FromFile(CameraPhotoFile));
+
+                //Uri photoURI = Uri.FromFile(CameraPhotoFile);
+                Uri photoURI = FileProvider.GetUri(CameraPhotoFile);
+
+                Intent intent = new Intent(MediaStore.ActionImageCapture)
+                    .AddFlags(ActivityFlags.GrantReadUriPermission)
+                    .AddFlags(ActivityFlags.GrantWriteUriPermission)
+                    .PutExtra(MediaStore.ExtraOutput, photoURI);
 
                 CameraTaskCompletionSource = new TaskCompletionSource<ImageSource>();
 
@@ -79,7 +85,7 @@ namespace Rox
 
             ImageSource imageSource = ImageSource.FromStream(() =>
             {
-                Activity activity = CameraControlAndroid.GetActivity();
+                Activity activity = Camera.GetActivity();
                 System.IO.MemoryStream memoryStream;
                 using (System.IO.Stream imageStream = activity.ContentResolver.OpenInputStream(Uri.FromFile(CameraPhotoFile)))
                 {
