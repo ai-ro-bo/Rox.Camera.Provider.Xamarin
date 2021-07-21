@@ -53,8 +53,8 @@
     <Compile Include="..\..\Shared\AssemblyVersion.cs">
       <Link>Properties\AssemblyVersion.cs</Link>
     </Compile>
-    <Compile Include="CameraControlAndroid.cs" />
-    <Compile Include="RoxControlCameraFileProvider.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="FileProvider.cs" />
     <Compile Include="CameraProvider.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyProject.cs" />
@@ -75,10 +75,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\xml\RoxControlCameraProviderPaths.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\xml\rox_fileprovider_file_paths.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

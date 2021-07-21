@@ -46,8 +46,8 @@
     <Compile Include="..\..\Shared\AssemblyVersion.cs">
       <Link>Properties\AssemblyVersion.cs</Link>
     </Compile>
-    <Compile Include="CameraControlApple.cs" />
     <Compile Include="Camera.cs" />
+    <Compile Include="CameraController.cs" />
     <Compile Include="CameraProvider.cs" />
     <Compile Include="Properties\AssemblyProject.cs" />
   </ItemGroup>

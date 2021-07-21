@@ -14,7 +14,7 @@ namespace Rox
             TaskCompletionSource<ImageSource> taskCompletionSource = new TaskCompletionSource<ImageSource>();
             try
             {
-                Camera.TakePicture(UIApplication.SharedApplication.KeyWindow.RootViewController, (imagePickerResult) =>
+                CameraController.TakePicture(UIApplication.SharedApplication.KeyWindow.RootViewController, (imagePickerResult) =>
                 {
                     if (imagePickerResult == null)
                     {

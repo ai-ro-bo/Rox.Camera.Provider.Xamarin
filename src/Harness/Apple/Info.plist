@@ -23,9 +23,9 @@
 	<key>MinimumOSVersion</key>
 	<string>8.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>Rox Camera Control Harness</string>
+	<string>Rox Camera Harness</string>
 	<key>CFBundleIdentifier</key>
-	<string>au.com.airobo.rox.control.camera.harness</string>
+	<string>au.com.airobo.rox.harness.camera</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
