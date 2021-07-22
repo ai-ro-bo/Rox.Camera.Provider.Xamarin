@@ -1,4 +1,8 @@
-### Rox Camera Control for Xamarin.Forms
+## Rox Camera Control for Xamarin.Forms
+
+| Site | [rox.tools/control/camera](https://rox.tools/control/camera/) |
+| NuGet | [nuget.org/packages/Rox.Xamarin.Camera](https://www.nuget.org/packages/Rox.Xamarin.Camera/) |
+| Source | [github.com/ai-ro-bo/Rox.Control.Camera.Xamarin](https://github.com/ai-ro-bo/Rox.Control.Camera.Xamarin) |
 
 ---
 
@@ -8,20 +12,24 @@ The CameraProvider component uses native platform components.
 
 ---
 
-In your Android project "MainActivity" code file, you must call "CameraControlAndroid.Initialise(Activity)" before "Xamarin.Forms.Forms.Init()". It should look something like:
+### Android
+
+In your Android project "MainActivity" code file, you must call "Rox.Camera.Init(Activity)" before "Xamarin.Forms.Forms.Init()". It should look something like:
 
 ```csharp
-    CameraControlAndroid.Initialise(this);
+    global::Rox.Camera.Init(this);
 
     global::Xamarin.Forms.Forms.Init();
 
     LoadApplication(new MyCameraApplication());
 ```
 
+### iOS
+
 In your iOS project "AppDelegate" code file, you must call "CameraControlApple.Initialise()" before "Xamarin.Forms.Forms.Init()". It should look something like:
 
 ```csharp
-    CameraControlApple.Initialise();
+    global::Rox.Camera.Init();
 
     global::Xamarin.Forms.Forms.Init();
 
@@ -37,4 +45,3 @@ The Rox Camera Control has the following methods:
 ```
 
 ---
-Source code and test harness are available at: https://github.com/ai-ro-bo/Rox.Control.Camera.Xamarin

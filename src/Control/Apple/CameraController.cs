@@ -41,11 +41,10 @@ namespace Rox
 
         public static void TakePicture(UIViewController parent, Action<NSDictionary> cameraCallback)
         {
-            CameraPicker.SourceType = UIImagePickerControllerSourceType.Camera;
-            CameraPicker.CameraCaptureMode = UIImagePickerControllerCameraCaptureMode.Photo;
             try
             {
                 CameraPicker.SourceType = UIImagePickerControllerSourceType.Camera;
+                CameraPicker.CameraCaptureMode = UIImagePickerControllerCameraCaptureMode.Photo;
             }
             catch
             {
@@ -53,6 +52,7 @@ namespace Rox
 
                 CameraPicker.SourceType = UIImagePickerControllerSourceType.PhotoLibrary;
             }
+
             CameraCallback = cameraCallback;
             parent.PresentViewController(CameraPicker, true, null);
         }
