@@ -3,7 +3,7 @@
 	<metadata>
 		<id>Rox.Xamarin.Camera</id>
 		<title>Rox Camera Control for Xamarin.Forms</title>
-		<version>5.0.0-pre3</version>
+		<version>5.0.0-rc1</version>
 		<repository type="git" url="https://github.com/ai-ro-bo/Rox.Control.Camera.Xamarin.git" branch="rel" />
 		<authors>https://airobo.software/</authors>
 		<license type="expression">MIT</license>
@@ -13,7 +13,7 @@
 		<description>Acquire images with the device camera in Xamarin.Forms with the Rox Camera Control. Supports Android, iOS, and UWP.</description>
 		<readme>res\Rox.Control.Camera.Xamarin.Readme.md</readme>
 		<releaseNotes>
-# Version 5.0.0-pre3
+# Version 5.0.0-rc1
 
 * Created new solution and projects and reimplemented components on all platforms.
 * Removed security requirements from Android and Windows.
