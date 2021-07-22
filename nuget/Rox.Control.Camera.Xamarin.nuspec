@@ -55,6 +55,7 @@ NuGet package for this control: https://www.nuget.org/packages/Rox.Xamarin.Camer
 	</metadata>
 	<files>
 		<!-- Resources -->
+		<file src="..\res\nuget-license.txt" target="res\nuget-license.txt" />
 		<file src="..\res\nuget-logo.png" target="res\nuget-logo.png" />
 		<file src="..\res\nuget-readme.md" target="res\nuget-readme.md" />
 
