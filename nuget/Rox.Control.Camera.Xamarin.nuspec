@@ -3,30 +3,33 @@
 	<metadata>
 		<id>Rox.Xamarin.Camera</id>
 		<title>Rox Camera Control for Xamarin.Forms</title>
-		<version>5.0.0-rc1</version>
+		<version>5.0.0-pre4</version>
 		<repository type="git" url="https://github.com/ai-ro-bo/Rox.Control.Camera.Xamarin.git" branch="rel" />
-		<authors>https://airobo.software/</authors>
+		<authors>AiRoBo Software</authors>
 		<license type="expression">MIT</license>
 		<projectUrl>https://rox.tools/control/camera</projectUrl>
-		<icon>res\Rox.Control.Camera.Xamarin.Logo.png</icon>
+		<icon>res\nuget-logo.png</icon>
 		<requireLicenseAcceptance>true</requireLicenseAcceptance>
-		<description>Acquire images with the device camera in Xamarin.Forms with the Rox Camera Control. Supports Android, iOS, and UWP.</description>
-		<readme>res\Rox.Control.Camera.Xamarin.Readme.md</readme>
+		<description>
+Rox Camera Control for Xamarin.Forms provides client application access to a device camera to acquire images. Supports Android, iOS, and UWP.
+
+Instructions for using the Camera Control: https://rox.tools/control/camera
+Instructions specific to Xamarin.Forms: https://rox.tools/control/camera/xamarin
+Sample project using this NuGet: https://rox.gallery/control
+Source code for this control: https://github.com/ai-ro-bo/Rox.Control.Camera.Xamarin
+NuGet package for this control: https://www.nuget.org/packages/Rox.Xamarin.Camera
+		</description>
+		<readme>res\nuget-readme.md</readme>
 		<releaseNotes>
-# Version 5.0.0-rc1
+# Version 5.0.0-pre4
 
 * Created new solution and projects and reimplemented components on all platforms.
 * Removed security requirements from Android and Windows.
 * Implemented custom FileProvider for Android.
+* Shows photo library when no camera for Apple.
 * Moved Sample to Harness.
 * Changed licensed to MIT.
 * Provided source code in git repository.
-
-[Target Configuration]
-* Core : netstandard2.0
-* iOS : Xamarin.iOS10
-* Android : MonoAndroid10.0
-* UWP : uap10.0.16299
 
 [Build Configuration]
 * Windows : 10.19043.1110
@@ -34,7 +37,7 @@
 * Xamarin.Forms : 5.0.0.2083
 		</releaseNotes>
 		<copyright>©2021 AiRoBo Software</copyright>
-		<tags>xamarin forms xamarinforms xamarin.forms plugin media camera picture image uap uwp android ios</tags>
+		<tags>xamarin forms xamarin.forms media camera picture image uap uwp android ios</tags>
 		<dependencies>
 			<group targetFramework="netstandard2.0">
 				<dependency id="Xamarin.Forms" version="1.0.0.0" />
@@ -52,8 +55,8 @@
 	</metadata>
 	<files>
 		<!-- Resources -->
-		<file src="..\res\Rox.Control.Camera.Xamarin.Logo.png" target="res\Rox.Control.Camera.Xamarin.Logo.png" />
-		<file src="..\res\Rox.Control.Camera.Xamarin.Readme.md" target="res\Rox.Control.Camera.Xamarin.Readme.md" />
+		<file src="..\res\nuget-logo.png" target="res\nuget-logo.png" />
+		<file src="..\res\nuget-readme.md" target="res\nuget-readme.md" />
 
 		<!-- Core -->
 		<file src="..\src\Control\Core\bin\Release\netstandard2.0\Rox.Control.Camera.Xamarin.Core.dll" target="lib\netstandard2.0\Rox.Control.Camera.Xamarin.Core.dll" />
