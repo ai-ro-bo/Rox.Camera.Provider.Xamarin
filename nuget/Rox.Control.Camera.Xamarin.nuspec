@@ -21,8 +21,6 @@ NuGet package for this control: https://www.nuget.org/packages/Rox.Xamarin.Camer
 		</description>
 		<readme>res\nuget-readme.md</readme>
 		<releaseNotes>
-# Version 5.0.0-pre4
-
 * Created new solution and projects and reimplemented components on all platforms.
 * Removed security requirements from Android and Windows.
 * Implemented custom FileProvider for Android.
