@@ -6,7 +6,7 @@
 		<version>5.0.0-pre4</version>
 		<repository type="git" url="https://github.com/ai-ro-bo/Rox.Control.Camera.Xamarin.git" branch="rel" />
 		<authors>AiRoBo Software</authors>
-		<license type="expression">MIT</license>
+		<license type="file">res\nuget-license.txt</license>
 		<projectUrl>https://rox.tools/control/camera</projectUrl>
 		<icon>res\nuget-logo.png</icon>
 		<requireLicenseAcceptance>true</requireLicenseAcceptance>
