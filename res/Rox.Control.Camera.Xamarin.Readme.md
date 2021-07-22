@@ -1,4 +1,15 @@
-## Rox Camera Control for Xamarin.Forms
+### Rox Camera Control for Xamarin.Forms
+
+©2021 [AiRoBo Software](https://airobo.software/)
+
+| Site | URL |
+| --- | --- |
+| Help | [rox.tools/control/camera](https://rox.tools/control/camera/) |
+| | [rox.tools/control/camera/xamarin](https://rox.tools/control/camera/xamarin/) |
+| Sample | [rox.gallery/control](https://rox.gallery/control/) |
+| Source | [github.com/ai-ro-bo/Rox.Control.Camera.Xamarin](https://github.com/ai-ro-bo/Rox.Control.Camera.Xamarin) |
+| NuGet | [nuget.org/packages/Rox.Xamarin.Camera](https://www.nuget.org/packages/Rox.Xamarin.Camera/) |
+| AiRoBo | [airobo.software](https://airobo.software/) |
 
 | Site | [rox.tools/control/camera](https://rox.tools/control/camera/) |
 | NuGet | [nuget.org/packages/Rox.Xamarin.Camera](https://www.nuget.org/packages/Rox.Xamarin.Camera/) |
@@ -6,7 +17,7 @@
 
 ---
 
-Acquire images with the device camera in Xamarin.Forms with the Rox Camera Control. Supports Android, iOS, and UWP.
+Rox Camera Control for Xamarin.Forms Acquires images with the device camera. Supports Android, iOS, and UWP.
 
 The CameraProvider component uses native platform components.
 
