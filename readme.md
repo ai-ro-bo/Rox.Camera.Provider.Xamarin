@@ -4,8 +4,7 @@ This repository contains the source code for the [Rox Camera Control for Xamarin
 
 | | Useful Links |
 | --- | --- |
-| **Instructions** | [rox.tools/control/camera](https://rox.tools/control/camera/) |
-| | [rox.tools/control/camera/xamarin](https://rox.tools/control/camera/xamarin/) |
+| **Instructions** | [rox.tools/control/camera](https://rox.tools/camera/) |
 | **Sample** | [rox.gallery/control](https://rox.gallery/control/) |
 | **NuGet** | [Rox.Xamarin.Camera](https://www.nuget.org/packages/Rox.Xamarin.Camera/) |
 
