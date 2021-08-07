@@ -2,7 +2,9 @@
 ### `Rox Camera Provider for Xamarin.Forms`
 
 ---
-Useful links:
+Rox Camera Provider for Xamarin.Forms provides access to the native device camera for acquiring images.
+
+Supports Android, iOS, and UWP platforms.
 
 | | |
 | --- | --- |

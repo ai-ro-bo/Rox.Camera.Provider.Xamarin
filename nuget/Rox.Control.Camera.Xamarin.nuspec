@@ -2,15 +2,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
 	<metadata>
 		<id>Rox.Xamarin.Camera</id>
-		<title>Rox Camera Control for Xamarin.Forms</title>
+		<title>Rox Camera Provider for Xamarin.Forms</title>
 		<version>5.0.0-pre5</version>
-		<repository type="git" url="https://github.com/ai-ro-bo/Rox.Control.Camera.Xamarin.git" branch="rel" />
+		<repository type="git" url="https://github.com/ai-ro-bo/Rox.Camera.Provider.Xamarin.git" branch="rel" />
 		<authors>AiRoBo Software</authors>
 		<license type="file">res\nuget-license.txt</license>
 		<projectUrl>https://rox.tools/camera</projectUrl>
 		<icon>res\nuget-logo.png</icon>
 		<requireLicenseAcceptance>true</requireLicenseAcceptance>
-		<description>Rox Camera Control for Xamarin.Forms provides client application access to a device camera to acquire images. Supports Android, iOS, and UWP.</description>
+		<description>Rox Camera Provider for Xamarin.Forms provides access to the native device camera for acquiring images. Supports Android, iOS, and UWP platforms.</description>
 		<readme>res\nuget-readme.md</readme>
 		<releaseNotes>
 * Created new solution and projects and reimplemented components on all platforms.
@@ -50,25 +50,25 @@
 		<file src="..\res\nuget-readme.md" target="res\nuget-readme.md" />
 
 		<!-- Core -->
-		<file src="..\src\Control\Core\bin\Release\netstandard2.0\Rox.Control.Camera.Xamarin.Core.dll" target="lib\netstandard2.0\Rox.Control.Camera.Xamarin.Core.dll" />
-		<file src="..\src\Control\Core\bin\Release\netstandard2.0\Rox.Control.Camera.Xamarin.Core.pdb" target="lib\netstandard2.0\Rox.Control.Camera.Xamarin.Core.pdb" />
+		<file src="..\src\Provider\Core\bin\Release\netstandard2.0\Rox.Camera.Provider.Xamarin.Core.dll" target="lib\netstandard2.0\Rox.Camera.Provider.Xamarin.Core.dll" />
+		<file src="..\src\Provider\Core\bin\Release\netstandard2.0\Rox.Camera.Provider.Xamarin.Core.pdb" target="lib\netstandard2.0\Rox.Camera.Provider.Xamarin.Core.pdb" />
 
 		<!-- Android -->
-		<file src="..\src\Control\Android\bin\Release\Rox.Control.Camera.Xamarin.Core.dll" target="lib\MonoAndroid10.0\Rox.Control.Camera.Xamarin.Core.dll" />
-		<file src="..\src\Control\Android\bin\Release\Rox.Control.Camera.Xamarin.Core.pdb" target="lib\MonoAndroid10.0\Rox.Control.Camera.Xamarin.Core.pdb" />
-		<file src="..\src\Control\Android\bin\Release\Rox.Control.Camera.Xamarin.Android.dll" target="lib\MonoAndroid10.0\Rox.Control.Camera.Xamarin.Android.dll" />
-		<file src="..\src\Control\Android\bin\Release\Rox.Control.Camera.Xamarin.Android.pdb" target="lib\MonoAndroid10.0\Rox.Control.Camera.Xamarin.Android.pdb" />
+		<file src="..\src\Provider\Android\bin\Release\Rox.Camera.Provider.Xamarin.Core.dll" target="lib\MonoAndroid10.0\Rox.Camera.Provider.Xamarin.Core.dll" />
+		<file src="..\src\Provider\Android\bin\Release\Rox.Camera.Provider.Xamarin.Core.pdb" target="lib\MonoAndroid10.0\Rox.Camera.Provider.Xamarin.Core.pdb" />
+		<file src="..\src\Provider\Android\bin\Release\Rox.Camera.Provider.Xamarin.Android.dll" target="lib\MonoAndroid10.0\Rox.Camera.Provider.Xamarin.Android.dll" />
+		<file src="..\src\Provider\Android\bin\Release\Rox.Camera.Provider.Xamarin.Android.pdb" target="lib\MonoAndroid10.0\Rox.Camera.Provider.Xamarin.Android.pdb" />
 
 		<!-- iOS -->
-		<file src="..\src\Control\Apple\bin\Release\Rox.Control.Camera.Xamarin.Core.dll" target="lib\Xamarin.iOS10\Rox.Control.Camera.Xamarin.Core.dll" />
-		<file src="..\src\Control\Apple\bin\Release\Rox.Control.Camera.Xamarin.Core.pdb" target="lib\Xamarin.iOS10\Rox.Control.Camera.Xamarin.Core.pdb" />
-		<file src="..\src\Control\Apple\bin\Release\Rox.Control.Camera.Xamarin.Apple.dll" target="lib\Xamarin.iOS10\Rox.Control.Camera.Xamarin.Apple.dll" />
-		<file src="..\src\Control\Apple\bin\Release\Rox.Control.Camera.Xamarin.Apple.pdb" target="lib\Xamarin.iOS10\Rox.Control.Camera.Xamarin.Apple.pdb" />
+		<file src="..\src\Provider\Apple\bin\Release\Rox.Camera.Provider.Xamarin.Core.dll" target="lib\Xamarin.iOS10\Rox.Camera.Provider.Xamarin.Core.dll" />
+		<file src="..\src\Provider\Apple\bin\Release\Rox.Camera.Provider.Xamarin.Core.pdb" target="lib\Xamarin.iOS10\Rox.Camera.Provider.Xamarin.Core.pdb" />
+		<file src="..\src\Provider\Apple\bin\Release\Rox.Camera.Provider.Xamarin.Apple.dll" target="lib\Xamarin.iOS10\Rox.Camera.Provider.Xamarin.Apple.dll" />
+		<file src="..\src\Provider\Apple\bin\Release\Rox.Camera.Provider.Xamarin.Apple.pdb" target="lib\Xamarin.iOS10\Rox.Camera.Provider.Xamarin.Apple.pdb" />
 
 		<!-- UWP -->
-		<file src="..\src\Control\Windows\bin\Release\Rox.Control.Camera.Xamarin.Core.dll" target="lib\uap10.0.16299\Rox.Control.Camera.Xamarin.Core.dll" />
-		<file src="..\src\Control\Windows\bin\Release\Rox.Control.Camera.Xamarin.Core.pdb" target="lib\uap10.0.16299\Rox.Control.Camera.Xamarin.Core.pdb" />
-		<file src="..\src\Control\Windows\bin\Release\Rox.Control.Camera.Xamarin.Windows.dll" target="lib\uap10.0.16299\Rox.Control.Camera.Xamarin.Windows.dll" />
-		<file src="..\src\Control\Windows\bin\Release\Rox.Control.Camera.Xamarin.Windows.pdb" target="lib\uap10.0.16299\Rox.Control.Camera.Xamarin.Windows.pdb" />
+		<file src="..\src\Provider\Windows\bin\Release\Rox.Camera.Provider.Xamarin.Core.dll" target="lib\uap10.0.16299\Rox.Camera.Provider.Xamarin.Core.dll" />
+		<file src="..\src\Provider\Windows\bin\Release\Rox.Camera.Provider.Xamarin.Core.pdb" target="lib\uap10.0.16299\Rox.Camera.Provider.Xamarin.Core.pdb" />
+		<file src="..\src\Provider\Windows\bin\Release\Rox.Camera.Provider.Xamarin.Windows.dll" target="lib\uap10.0.16299\Rox.Camera.Provider.Xamarin.Windows.dll" />
+		<file src="..\src\Provider\Windows\bin\Release\Rox.Camera.Provider.Xamarin.Windows.pdb" target="lib\uap10.0.16299\Rox.Camera.Provider.Xamarin.Windows.pdb" />
 	</files>
 </package>
