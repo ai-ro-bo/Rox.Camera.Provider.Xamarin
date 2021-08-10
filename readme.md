@@ -1,4 +1,6 @@
-### Rox Camera Provider for Xamarin.Forms
+### `Rox Camera Provider for Xamarin.Forms`
+
+Rox Camera Provider enables access to the native device camera for acquiring images.
 
 | | Links |
 | --- | --- |
