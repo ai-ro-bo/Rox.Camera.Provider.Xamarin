@@ -8,7 +8,7 @@
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Rox</RootNamespace>
-    <AssemblyName>Rox.Harness.Camera.Xamarin.Windows</AssemblyName>
+    <AssemblyName>Rox.Camera.Harness.Xamarin.Windows</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
@@ -20,7 +20,7 @@
     <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
     <PackageCertificateThumbprint>8EA9F88C6ED07AA10A1B3F2DBFD40FB2B106F234</PackageCertificateThumbprint>
-    <PackageCertificateKeyFile>Rox.Harness.Camera.Xamarin.Windows_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>Rox.Camera.Harness.Xamarin.Windows_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -156,21 +156,21 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.12" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Control\Windows\Rox.Control.Camera.Xamarin.Windows.csproj">
+    <ProjectReference Include="..\..\Provider\Windows\Rox.Camera.Provider.Xamarin.Windows.csproj">
       <Project>{4416852d-2320-4c97-b8f9-6bc9cd7871e0}</Project>
-      <Name>Rox.Control.Camera.Xamarin.Windows</Name>
+      <Name>Rox.Camera.Provider.Xamarin.Windows</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Control\Core\Rox.Control.Camera.Xamarin.Core.csproj">
+    <ProjectReference Include="..\..\Provider\Core\Rox.Camera.Provider.Xamarin.Core.csproj">
       <Project>{0d73966c-446b-45c9-bfe0-86c61766d590}</Project>
-      <Name>Rox.Control.Camera.Xamarin.Core</Name>
+      <Name>Rox.Camera.Provider.Xamarin.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Core\Rox.Harness.Camera.Xamarin.Core.csproj">
+    <ProjectReference Include="..\Core\Rox.Camera.Harness.Xamarin.Core.csproj">
       <Project>{FA7553AC-83B3-4229-8D3D-5AD72E1591E4}</Project>
-      <Name>Rox.Harness.Camera.Xamarin.Core</Name>
+      <Name>Rox.Camera.Harness.Xamarin.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Rox.Harness.Camera.Xamarin.Windows_TemporaryKey.pfx" />
+    <None Include="Rox.Camera.Harness.Xamarin.Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

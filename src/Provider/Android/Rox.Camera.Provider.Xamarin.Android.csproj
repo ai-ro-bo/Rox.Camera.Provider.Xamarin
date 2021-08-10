@@ -10,8 +10,8 @@
     <TemplateGuid>{9ef11e43-1701-4396-8835-8392d57abb70}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RoxControlCamera</RootNamespace>
-    <AssemblyName>Rox.Control.Camera.Xamarin.Android</AssemblyName>
+    <RootNamespace>RoxCameraProvider</RootNamespace>
+    <AssemblyName>Rox.Camera.Provider.Xamarin.Android</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -68,9 +68,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Core\Rox.Control.Camera.Xamarin.Core.csproj">
+    <ProjectReference Include="..\Core\Rox.Camera.Provider.Xamarin.Core.csproj">
       <Project>{0d73966c-446b-45c9-bfe0-86c61766d590}</Project>
-      <Name>Rox.Control.Camera.Xamarin.Core</Name>
+      <Name>Rox.Camera.Provider.Xamarin.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

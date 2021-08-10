@@ -11,7 +11,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Rox</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>Rox.Harness.Camera.Xamarin.Apple</AssemblyName>
+    <AssemblyName>Rox.Camera.Harness.Xamarin.Apple</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <ProvisioningType>automatic</ProvisioningType>
@@ -136,19 +136,19 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\..\Control\Apple\Rox.Control.Camera.Xamarin.Apple.csproj">
+    <ProjectReference Include="..\..\Provider\Apple\Rox.Camera.Provider.Xamarin.Apple.csproj">
       <Project>{483397be-d741-4e4c-978a-82e301b5d0b2}</Project>
-      <Name>Rox.Control.Camera.Xamarin.Apple</Name>
+      <Name>Rox.Camera.Provider.Xamarin.Apple</Name>
       <IsAppExtension>false</IsAppExtension>
       <IsWatchApp>false</IsWatchApp>
     </ProjectReference>
-    <ProjectReference Include="..\..\Control\Core\Rox.Control.Camera.Xamarin.Core.csproj">
+    <ProjectReference Include="..\..\Provider\Core\Rox.Camera.Provider.Xamarin.Core.csproj">
       <Project>{0d73966c-446b-45c9-bfe0-86c61766d590}</Project>
-      <Name>Rox.Control.Camera.Xamarin.Core</Name>
+      <Name>Rox.Camera.Provider.Xamarin.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Core\Rox.Harness.Camera.Xamarin.Core.csproj">
+    <ProjectReference Include="..\Core\Rox.Camera.Harness.Xamarin.Core.csproj">
       <Project>{FA7553AC-83B3-4229-8D3D-5AD72E1591E4}</Project>
-      <Name>Rox.Harness.Camera.Xamarin.Core</Name>
+      <Name>Rox.Camera.Harness.Xamarin.Core</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
