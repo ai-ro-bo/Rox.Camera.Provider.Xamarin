@@ -8,7 +8,7 @@
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Rox</RootNamespace>
-    <AssemblyName>Rox.Harness.Camera.Xamarin.Android</AssemblyName>
+    <AssemblyName>Rox.Camera.Harness.Xamarin.Android</AssemblyName>
     <Deterministic>True</Deterministic>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -94,23 +94,23 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Control\Android\Rox.Control.Camera.Xamarin.Android.csproj">
+    <ProjectReference Include="..\..\Provider\Android\Rox.Camera.Provider.Xamarin.Android.csproj">
       <Project>{12c4b178-e497-446f-9eca-97acfacdf3ce}</Project>
-      <Name>Rox.Control.Camera.Xamarin.Android</Name>
+      <Name>Rox.Camera.Provider.Xamarin.Android</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Control\Core\Rox.Control.Camera.Xamarin.Core.csproj">
+    <ProjectReference Include="..\..\Provider\Core\Rox.Camera.Provider.Xamarin.Core.csproj">
       <Project>{0d73966c-446b-45c9-bfe0-86c61766d590}</Project>
-      <Name>Rox.Control.Camera.Xamarin.Core</Name>
+      <Name>Rox.Camera.Provider.Xamarin.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Core\Rox.Harness.Camera.Xamarin.Core.csproj">
+    <ProjectReference Include="..\Core\Rox.Camera.Harness.Xamarin.Core.csproj">
       <Project>{FA7553AC-83B3-4229-8D3D-5AD72E1591E4}</Project>
-      <Name>Rox.Harness.Camera.Xamarin.Core</Name>
+      <Name>Rox.Camera.Harness.Xamarin.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties XamarinHotReloadDebuggerTimeoutExceptionRoxHarnessCameraXamarinAndroidHideInfoBar="True" />
+      <UserProperties XamarinHotReloadDebuggerTimeoutExceptionRoxCameraHarnessXamarinAndroidHideInfoBar="True" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

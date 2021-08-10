@@ -1,0 +1,1 @@
+﻿[assembly: System.Reflection. AssemblyTitle("Rox Camera Provider for Apple")]
