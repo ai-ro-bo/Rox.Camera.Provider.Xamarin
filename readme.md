@@ -1,6 +1,6 @@
-### Rox Camera Control for Xamarin.Forms
+### Rox Camera Provider for Xamarin.Forms
 
-This repository contains the source code for the [Rox Camera Control for Xamarin.Forms NuGet Package](https://www.nuget.org/packages/Rox.Xamarin.Camera/).
+This repository contains the source code for the [Rox Camera Provider for Xamarin.Forms NuGet Package](https://www.nuget.org/packages/Rox.Xamarin.Camera/).
 
 | | Useful Links |
 | --- | --- |
