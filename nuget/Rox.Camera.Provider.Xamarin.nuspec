@@ -26,7 +26,7 @@
 * macOS : Big Sur 11.5
 * Xamarin.Forms : 5.0.0.2083
 		</releaseNotes>
-		<copyright>©2021 AiRoBo Software</copyright>
+		<copyright>©2016-2021 AiRoBo Software</copyright>
 		<tags>xamarin forms xamarin.forms media camera picture image uap uwp android ios</tags>
 		<dependencies>
 			<group targetFramework="netstandard2.0">
