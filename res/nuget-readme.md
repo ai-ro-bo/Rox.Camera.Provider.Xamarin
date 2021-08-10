@@ -9,7 +9,7 @@ Supports Android, iOS, and UWP platforms.
 | | |
 | --- | --- |
 | [Instructions](https://rox.tools/camera/) | Instructions for all platforms. |
-| [Source](https://github.com/ai-ro-bo/Rox.Control.Camera.Xamarin/) | Source code for Camera Provider. |
+| [Source](https://github.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/) | Source code for Camera Provider. |
 | [NuGet](https://www.nuget.org/packages/Rox.Xamarin.Camera/) | NuGet package for Camera Provider. |
 | [Sample](https://rox.gallery/control/) | Sample project for **Rox Tools for .Net** controls. |
 
