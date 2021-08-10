@@ -3,7 +3,7 @@
 	<metadata>
 		<id>Rox.Xamarin.Camera</id>
 		<title>Rox Camera Provider for Xamarin.Forms</title>
-		<version>5.0.0-pre6</version>
+		<version>5.0.0-pre7</version>
 		<repository type="git" url="https://github.com/ai-ro-bo/Rox.Camera.Provider.Xamarin.git" branch="rel" />
 		<authors>AiRoBo Software</authors>
 		<license type="file">res\nuget-license.txt</license>

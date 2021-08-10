@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="au.com.airobo.rox.harness.camera"
+    Name="airobo.rox.camera.harness"
     Publisher="CN=AiRoBo"
-    Version="1.0.0.0" />
+    Version="5.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Rox Camera Harness</DisplayName>
-    <PublisherDisplayName>AiRoBo</PublisherDisplayName>
+    <PublisherDisplayName>AiRoBo Software</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
