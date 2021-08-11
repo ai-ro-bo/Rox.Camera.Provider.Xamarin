@@ -16,30 +16,31 @@
 * Created new solution and projects and reimplemented components on all platforms.
 * Removed security requirements from Android and Windows.
 * Implemented custom FileProvider for Android.
-* Shows photo library when no camera for Apple.
-* Moved Sample to Harness.
+* Shows photo library when no camera available for Apple device.
+* Moved Sample to Harness and linked directly to project.
 * Changed licensed to MIT.
 * Provided source code in GitHub repository.
 
 [Build Configuration]
-* Windows : 10.19043.1110
-* macOS : Big Sur 11.5
+* Visual Studio for Windows v16.11.0
+* Windows 10 v21H1.19043.1110
+* macOS : Big Sur 11.5.1
 * Xamarin.Forms : 5.0.0.2083
 		</releaseNotes>
 		<copyright>©2016-2021 AiRoBo Software</copyright>
-		<tags>xamarin forms xamarin.forms media camera picture image uap uwp android ios</tags>
+		<tags>rox camera rox.tools xamarin xamarin.forms media picture image android ios uwp</tags>
 		<dependencies>
 			<group targetFramework="netstandard2.0">
-				<dependency id="Xamarin.Forms" version="1.0.0.0" />
+				<dependency id="Xamarin.Forms" version="3.5.0.0" />
 			</group>
 			<group targetFramework="MonoAndroid10.0">
-				<dependency id="Xamarin.Forms" version="1.0.0.0" />
+				<dependency id="Xamarin.Forms" version="3.5.0.0" />
 			</group>
 			<group targetFramework="Xamarin.iOS10">
-				<dependency id="Xamarin.Forms" version="1.0.0.0" />
+				<dependency id="Xamarin.Forms" version="3.5.0.0" />
 			</group>
 			<group targetFramework="uap10.0.16299">
-				<dependency id="Xamarin.Forms" version="1.0.0.0" />
+				<dependency id="Xamarin.Forms" version="3.5.0.0" />
 			</group>
 		</dependencies>
 	</metadata>
