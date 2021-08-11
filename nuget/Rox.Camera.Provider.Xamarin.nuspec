@@ -13,6 +13,7 @@
 		<description>Rox Camera Provider for Xamarin.Forms provides access to the native device camera for acquiring images. Supports Android, iOS, and UWP platforms.</description>
 		<readme>res\nuget-readme.md</readme>
 		<releaseNotes>
+[Version 5.0.0]
 * Created new solution and projects and reimplemented components on all platforms.
 * Removed security requirements from Android and Windows.
 * Implemented custom FileProvider for Android.
@@ -23,9 +24,16 @@
 
 [Build Configuration]
 * Visual Studio for Windows v16.11.0
+* Visual Studio for Mac v8.10.7.17
 * Windows 10 v21H1.19043.1110
 * macOS : Big Sur 11.5.1
 * Xamarin.Forms : 5.0.0.2083
+
+[Targets]
+* .NetStandard2.0
+* MonoAndroid10.0
+* Xamarin.iOS10
+* uap10.0.16299
 		</releaseNotes>
 		<copyright>©2016-2021 AiRoBo Software</copyright>
 		<tags>rox camera rox.tools xamarin xamarin.forms media picture image android ios uwp</tags>

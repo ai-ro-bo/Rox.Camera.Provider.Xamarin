@@ -1,10 +1,10 @@
 ### **`Rox Camera Provider for Xamarin.Forms`**
-
-*Part of [`Rox Tools for .Net`](https://rox.tools/) by [`AiRoBo Software`](https://airobo.software/)*.
 ---
 Rox Camera Provider for Xamarin.Forms provides access to the native device camera for acquiring images.
 
-*Targets .NetStandard2.0 and supports Android, iOS, and UWP platforms*.
+*Targets .NetStandard2.0 and supports Android, iOS, and UWP platforms*
+
+*Part of [`Rox Tools for .Net`](https://rox.tools/) by [`AiRoBo Software`](https://airobo.software/)*
 
 | | |
 | --- | --- |
