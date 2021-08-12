@@ -1,4 +1,4 @@
-### `**Rox Camera Provider for Xamarin.Forms**`
+### **`Rox Camera Provider for Xamarin.Forms`**
 
 Rox Camera Provider for Xamarin.Forms enables access to the device camera for image acquisition.
 
@@ -7,6 +7,7 @@ Rox Camera Provider for Xamarin.Forms enables access to the device camera for im
 | *.NetStandard2.0* | Y | Y | Y | X | X |
 | *.NetStandard2.1* | Y | Y | X | X | X |
 
+| | |
 | --- | --- |
 | **Instructions** | [rox.tools/camera](https://rox.tools/camera/) |
 | **Sample** | [rox.gallery/control](https://rox.gallery/control/) |
@@ -15,6 +16,7 @@ Rox Camera Provider for Xamarin.Forms enables access to the device camera for im
 ---
 If you like this software then try our other offerings:
 
+| | |
 | --- | --- |
 | [NoBS Services for .Net](https://nobs.services/) | A No Bullsh!t service controller for .Net server and clients. |
 | [AiRoBo.design Studio](https://airobo.design/) | Images, GitHub Pages Templates, Style sheets, and more. |
