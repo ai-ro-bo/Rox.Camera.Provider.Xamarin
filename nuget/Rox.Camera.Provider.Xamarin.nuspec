@@ -10,7 +10,7 @@
 		<projectUrl>https://rox.tools/camera</projectUrl>
 		<icon>res\nuget-logo.png</icon>
 		<requireLicenseAcceptance>true</requireLicenseAcceptance>
-		<description>Rox Camera Provider for Xamarin.Forms provides access to the native device camera for acquiring images. Supports Android, iOS, and UWP platforms.</description>
+		<description>Rox Camera Provider for Xamarin.Forms enables access to the device camera for image acquisition. Targets .NetStandard2.0 and supports Android, iOS, and UWP platforms.</description>
 		<readme>res\nuget-readme.md</readme>
 		<releaseNotes>
 [Version 5.0.0]
@@ -21,6 +21,8 @@
 * Moved Sample to Harness and linked directly to project.
 * Changed licensed to MIT.
 * Provided source code in GitHub repository.
+* Created https://rox.tools/camera/ instruction page.
+* Created skeleton https://rox.gallery/control/ sample page.
 
 [Build Configuration]
 * Visual Studio for Windows v16.11.0
