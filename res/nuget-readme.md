@@ -9,7 +9,7 @@ Rox Camera Provider for Xamarin.Forms enables access to the device camera for im
 
 | | | |
 | --- | --- | --- |
-| **Source** | &nbsp; &nbsp; | [Rox.Control.Camera.Xamarin](https://github.com/ai-ro-bo/Rox.Control.Camera.Xamarin) |
+| **GitHub** | &nbsp; &nbsp; | [Rox.Control.Camera.Xamarin](https://github.com/ai-ro-bo/Rox.Control.Camera.Xamarin/) |
 | **Instructions** | | [rox.tools/camera](https://rox.tools/camera/) |
 | **Sample** | | [rox.gallery/control](https://rox.gallery/control/) |
 
