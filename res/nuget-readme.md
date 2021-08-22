@@ -1,5 +1,5 @@
-### **`Rox Camera Provider for Xamarin.Forms`**
----
+### ![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-logo.svg) **Rox Camera Provider for Xamarin.Forms**
+
 Rox Camera Provider for Xamarin.Forms enables access to the device camera for image acquisition.
 
 | Target | Android | iOS | UWP | MacOS | Tizen |
