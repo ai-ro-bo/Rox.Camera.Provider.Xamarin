@@ -128,7 +128,7 @@
     </Compile>
     <Compile Include="CameraProvider.cs" />
     <Compile Include="Properties\AssemblyProject.cs" />
-    <EmbeddedResource Include="Properties\Rox.Camera.Provider.Windows.rd.xml" />
+    <EmbeddedResource Include="Properties\Rox.Camera.Provider.Xamarin.Windows.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
