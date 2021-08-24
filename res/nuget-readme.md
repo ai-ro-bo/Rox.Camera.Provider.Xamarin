@@ -24,12 +24,21 @@ If you like this software then try our other offerings:
 | [Rox Samples Gallery](https://rox.gallery/) | | Samples of Rox components and controls usage. |
 
 ---
-### ![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-logo.svg) **Rox Camera Provider for Xamarin.Forms**
+### ![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-logo.svg) **Rox Camera** *for* **Xamarin.Forms**
 
-Rox Camera Provider for Xamarin.Forms enables access to the device camera for image acquisition.
+**Rox Camera** *for* **Xamarin.Forms** enables access to the device camera for image acquisition.
+
+Instuctions: [![Rox Camera](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools/camera)
 
 ---
-[![Rox Camera](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-logo.svg)](https://rox.tools/camera)
+If you like this software then try our other **Xamarin.Forms** offerings...
+
+[![Rox Camera](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools/camera) [![Rox Video](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools/video) [![Rox Layout](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools/layout)
 
 ---
-*Visit us online* [![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software.svg)](https://airobo.software)
+Check out some of other stuff we do...
+
+[![Rox Tools](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools) [![NoBS Services](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://nobs.services) [![\wtf](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://backslash.wtf)
+
+---
+*Visit us online at* [![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-badge.svg)](https://airobo.software) *for more information*.
