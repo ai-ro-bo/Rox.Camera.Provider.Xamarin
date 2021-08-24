@@ -24,4 +24,12 @@ If you like this software then try our other offerings:
 | [Rox Samples Gallery](https://rox.gallery/) | | Samples of Rox components and controls usage. |
 
 ---
-***Rox Camera Provider for Xamarin.Forms*** *forms part of* [***`Rox Tools for .Net`***](https://rox.tools/) *by* [***`AiRoBo Software`***](https://airobo.software/)
+### ![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-logo.svg) **Rox Camera Provider for Xamarin.Forms**
+
+Rox Camera Provider for Xamarin.Forms enables access to the device camera for image acquisition.
+
+---
+[![Rox Camera](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-logo.svg)](https://rox.tools/camera)
+
+---
+*Visit us online* [![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software.svg)](https://airobo.software)
