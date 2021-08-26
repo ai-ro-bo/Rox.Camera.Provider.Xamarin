@@ -1,4 +1,4 @@
-### ![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-logo.svg) **Rox Camera Provider for Xamarin.Forms**
+### ![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/rox-camera-logo.svg) **Rox Camera Provider for Xamarin.Forms**
 
 Rox Camera Provider for Xamarin.Forms enables access to the device camera for image acquisition.
 
@@ -24,13 +24,13 @@ If you like this software then try our other offerings:
 | [Rox Samples Gallery](https://rox.gallery/) | | Samples of Rox components and controls usage. |
 
 ---
-### ![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-logo.svg) **Rox Camera** ***for*** **Xamarin.Forms**
+### ![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/rox-camera-logo.svg) **Rox Camera** ***for*** **Xamarin.Forms**
 
 **Rox Camera** ***for*** **Xamarin.Forms** enables access to the device camera for image acquisition.
 
-Instructions can be found at the **Rox Camera** site:
-
-[![Rox Camera](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-badge.svg)](https://rox.tools/camera) [![NuGet](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/nuget-icon.svg)](https://www.nuget.org/packages/Rox.Xamarin.Camera) [![GitHub](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/github-icon.svg)](https://github.com/ai-ro-bo/Rox.Camera.Provider.Xamarin)
+| Instructions | &nbsp; &nbsp; | NuGet | &nbsp; &nbsp; | GitHub |
+|:---:|:---:|:---:|:---:|:---:|
+| [![Rox Camera](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-badge.svg)](https://rox.tools/camera) | &nbsp; &nbsp; | [![NuGet](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/nuget-icon.svg)](https://www.nuget.org/packages/Rox.Xamarin.Camera) | &nbsp; &nbsp; | [![GitHub](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/github-icon.svg)](https://github.com/ai-ro-bo/Rox.Camera.Provider.Xamarin) |
 
 ---
 If you like this software then try our other **Xamarin.Forms** offerings...
