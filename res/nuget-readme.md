@@ -7,7 +7,7 @@ Rox Camera Provider enables access to the device camera for image acquisition.
 ---
 If you like this software then try our related components...
 
-[![Rox Camera Provider](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/rox-camera-icon.svg)](https://rox.tools/camera) [![Rox Video Control](https://raw.githubusercontent.com/ai-ro-bo/Rox.Video.Control.Xamarin/dev/res/rox-video-icon.svg)](https://rox.tools/video) [![Rox Layout Control](https://raw.githubusercontent.com/ai-ro-bo/Rox.Layout.Control.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools/layout)
+[![Rox Architect Pack](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/rox-video-icon.svg)](https://rox.tools/architect) [![Rox Camera Provider](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/rox-camera-icon.svg)](https://rox.tools/camera) [![Rox Video Control](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/rox-video-icon.svg)](https://rox.tools/video) [![Rox Layout Control](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools/layout)
 
 ---
 Check out some of the other stuff we do...
@@ -15,4 +15,4 @@ Check out some of the other stuff we do...
 [![AiRoBo.design Studio](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://airobo.design) [![Rox Tools](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools) [![NoBS Services](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://nobs.services) [![\wtf](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://backslash.wtf)
 
 ---
-*Visit us online at* [![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-badge.svg)](https://airobo.software) *for more information*.
+*Visit us at* [![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-badge.svg)](https://airobo.software)
