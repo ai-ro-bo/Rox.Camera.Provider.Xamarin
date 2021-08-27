@@ -1,28 +1,28 @@
-### **`Rox Camera Provider for Xamarin.Forms`**
+### ![Rox Camera Provider](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/rox-camera-logo.svg) **Rox Camera Provider** ***for*** **Xamarin.Forms**
 
-Rox Camera Provider for Xamarin.Forms enables access to the device camera for image acquisition.
+Rox Camera Provider enables access to the device camera for image acquisition.
 
-| Target | Android | iOS | UWP | MacOS | Tizen |
-| --- | --- | --- | --- | --- | --- |
-| *.NetStandard2.0* | Y | Y | Y | X | X |
-| *.NetStandard2.1* | Y | Y | X | X | X |
+- *.NetStandard2.0*
 
----
-### ![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/rox-camera-logo.svg) **Rox Camera** ***for*** **Xamarin.Forms**
+| Android | &nbsp; | iOS | &nbsp; | UWP | &nbsp; | MacOS | &nbsp; | Tizen |
+|:---:| --- |:---:| --- |:---:| --- |:---:| --- |:---:|
+| Y | | Y | | X | | X | | X |
 
-**Rox Camera** ***for*** **Xamarin.Forms** enables access to the device camera for image acquisition.
+- *.NetStandard2.1*
 
-Instructions can be found at the **Rox Camera** site:
+| Android | &nbsp; | iOS | &nbsp; | UWP | &nbsp; | MacOS | &nbsp; | Tizen |
+|:---:| --- |:---:| --- |:---:| --- |:---:| --- |:---:|
+| Y | | Y | | Y | | X | | X |
 
-[![Rox Camera](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-badge.svg)](https://rox.tools/camera) [![NuGet](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/nuget-icon.svg)](https://www.nuget.org/packages/Rox.Xamarin.Camera) [![GitHub](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/github-icon.svg)](https://github.com/ai-ro-bo/Rox.Camera.Provider.Xamarin)
-
----
-If you like this software then try our other **Xamarin.Forms** offerings...
-
-[![Rox Camera](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools/camera) [![Rox Video](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools/video) [![Rox Layout](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools/layout)
+[![Rox Camera Provider](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-badge.svg)](https://rox.tools/camera) &nbsp; [![NuGet](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/nuget-icon.svg)](https://www.nuget.org/packages/Rox.Xamarin.Camera) &nbsp; [![GitHub](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/github-icon.svg)](https://github.com/ai-ro-bo/Rox.Camera.Provider.Xamarin)
 
 ---
-Check out some of other stuff we do...
+If you like this software then try our related components...
+
+[![Rox Camera Provider](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/rox-camera-icon.svg)](https://rox.tools/camera) [![Rox Video Control](https://raw.githubusercontent.com/ai-ro-bo/Rox.Video.Control.Xamarin/dev/res/rox-video-icon.svg)](https://rox.tools/video) [![Rox Layout Control](https://raw.githubusercontent.com/ai-ro-bo/Rox.Layout.Control.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools/layout)
+
+---
+Check out some of the other stuff we do...
 
 [![Rox Tools](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools) [![NoBS Services](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://nobs.services) [![\wtf](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://backslash.wtf)
 
