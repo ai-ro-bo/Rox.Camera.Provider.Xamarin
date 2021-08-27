@@ -12,7 +12,7 @@ If you like this software then try our related components...
 ---
 Check out some of the other stuff we do...
 
-[![AiRoBo.design Studio](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://airobo.design) [![Rox Tools](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools) [![NoBS Services](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://nobs.services) [![\wtf](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://backslash.wtf)
+[![AiRoBo.design Studio](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://airobo.design) [![ai-drone-bo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://airobo.software/drone) [![NoBS Services](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://nobs.services) [![Rox Tools](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://rox.tools) [![\wtf](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-icon.svg)](https://backslash.wtf)
 
 ---
 *Visit us at* [![AiRoBo](https://raw.githubusercontent.com/ai-ro-bo/Rox.Camera.Provider.Xamarin/dev/res/airobo-software-badge.svg)](https://airobo.software)
