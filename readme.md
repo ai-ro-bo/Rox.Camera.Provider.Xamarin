@@ -1,4 +1,4 @@
-### ![Rox Camera for Xamarin.Forms](https://raw.githubusercontent.com/pit-bob/res/dev/rox/camera/xamarin/header.svg)
+![Rox Camera for Xamarin.Forms](https://raw.githubusercontent.com/pit-bob/res/dev/rox/camera/xamarin/header.svg)
 
 **Rox Camera for Xamarin.Forms** enables native access to a device camera for image acquisition.
 
